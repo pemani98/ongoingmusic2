@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import '@babel/runtime-corejs3/helpers/esm/defineProperty';
 
 // Import, Configure, and Initialize Firebase
 import * as firebase from 'firebase';  // importing firebase!!!
